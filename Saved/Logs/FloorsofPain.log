@@ -1,4 +1,4 @@
-﻿Log file open, 08/28/18 05:29:31
+﻿Log file open, 08/29/18 17:51:15
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: FloorsofPain
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(1471732125) SRandInit(1471732125).
+LogInit: Display: RandInit(2009956025) SRandInit(2009956025).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.277567
+LogStats: Stats thread started at 0.276439
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
@@ -168,7 +168,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  2.031s to configure plugins.
+LogStreaming: Display: Took  1.193s to configure plugins.
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -188,7 +188,7 @@ LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured
 LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
 LogInit:  - LocalHostAddr = Default
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-LogInit: WinSock: I am DESKTOP-EKVR1F9 (192.168.2.106:0)
+LogInit: WinSock: I am DESKTOP-EKVR1F9 (10.6.110.16:0)
 LogInit: Build: ++UE4+Release-4.19-CL-4033788
 LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
 LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
@@ -219,214 +219,229 @@ LogInit: Branch Name: ++UE4+Release-4.19
 LogInit: Command Line: 
 LogInit: Base Directory: D:/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
-LogStreaming: Display: Took  0.000s to delete old logs.
+LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.08.28-09.29.34:292][  0]LogInit: Selected Device Profile: [Windows]
-[2018.08.28-09.29.34:292][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.08.28-09.29.34:348][  0]LogInit: Computer: DESKTOP-EKVR1F9
-[2018.08.28-09.29.34:348][  0]LogInit: User: DylanBruton
-[2018.08.28-09.29.34:348][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.08.28-09.29.34:348][  0]LogInit: High frequency timer resolution =2.742188 MHz
-[2018.08.28-09.29.34:349][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.08.28-09.29.34:349][  0]LogMemory: Platform Memory Stats for Windows
-[2018.08.28-09.29.34:349][  0]LogMemory: Process Physical Memory: 274.25 MB used, 274.25 MB peak
-[2018.08.28-09.29.34:349][  0]LogMemory: Process Virtual Memory: 264.84 MB used, 264.84 MB peak
-[2018.08.28-09.29.34:349][  0]LogMemory: Physical Memory: 8716.32 MB used,  7540.71 MB free, 16257.03 MB total
-[2018.08.28-09.29.34:349][  0]LogMemory: Virtual Memory: 4795.36 MB used,  7540.71 MB free, 134217728.00 MB total
-[2018.08.28-09.29.34:817][  0]LogInit: Using OS detected language (en-US).
-[2018.08.28-09.29.34:817][  0]LogInit: Using OS detected locale (en-US).
-[2018.08.28-09.29.34:821][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.08.28-09.29.35:549][  0]LogStreaming: Display: Took  0.732s to EndInitTextLocalization.
-[2018.08.28-09.29.35:549][  0]LogInit: Setting process to per monitor DPI aware
-[2018.08.28-09.29.35:602][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.08.28-09.29.35:602][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.08.28-09.29.35:903][  0]LogD3D11RHI: D3D11 adapters:
-[2018.08.28-09.29.35:964][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2018.08.28-09.29.35:964][  0]LogD3D11RHI:       8089/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.08.28-09.29.35:989][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2018.08.28-09.29.35:989][  0]LogD3D11RHI:       128/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.08.28-09.29.35:991][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.08.28-09.29.35:991][  0]LogD3D11RHI:       0/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.08.28-09.29.35:991][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.08.28-09.29.36:001][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.08.28-09.29.36:001][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
-[2018.08.28-09.29.36:001][  0]LogWindows: EnumDisplayDevices:
-[2018.08.28-09.29.36:001][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2018.08.28-09.29.36:001][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.08.28-09.29.36:001][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.08.28-09.29.36:001][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.08.28-09.29.36:001][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.08.28-09.29.36:001][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.08.28-09.29.36:001][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.08.28-09.29.36:001][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.08.28-09.29.36:001][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2018.08.28-09.29.36:001][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.08.28-09.29.36:001][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.08.28-09.29.36:001][  0]LogRHI: Texture pool is 5662 MB (70% of 8089 MB)
-[2018.08.28-09.29.36:042][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.08.28-09.29.36:042][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.08.28-09.29.36:042][  0]LogD3D11RHI: Async texture creation enabled
-[2018.08.28-09.29.36:108][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.08.28-09.29.36:156][  0]LogShaderCompilers: Guid format shader working directory is 12 characters bigger than the processId version (../../../../GameDev/_Projects/TowerOfPain/Intermediate/Shaders/WorkingDirectory/5668/).
-[2018.08.28-09.29.36:156][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dylan Bruton/AppData/Local/Temp/UnrealShaderWorkingDir/41916E13454E84EB0480629601D39A34/'.
-[2018.08.28-09.29.36:522][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.08.28-09.29.36:535][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.08.28-09.29.36:549][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.08.28-09.29.36:562][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.08.28-09.29.36:577][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.08.28-09.29.36:592][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.08.28-09.29.36:606][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.08.28-09.29.36:620][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.08.28-09.29.36:627][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.08.28-09.29.36:639][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.08.28-09.29.36:651][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.08.28-09.29.36:663][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.08.28-09.29.36:675][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2018.08.28-09.29.36:688][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.08.28-09.29.36:701][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.08.28-09.29.36:726][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.08.28-09.29.36:726][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.08.28-09.29.36:739][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.28-09.29.36:740][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.08.28-09.29.36:779][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.08.28-09.29.36:791][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.08.28-09.29.36:802][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.08.28-09.29.36:815][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.08.28-09.29.36:837][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.08.28-09.29.36:861][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.08.28-09.29.36:861][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.08.28-09.29.36:981][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.08.28-09.29.36:981][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.08.28-09.29.36:981][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.08.28-09.29.37:808][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.08.28-09.29.37:878][  0]LogDerivedDataCache: Loaded boot cache 0.07s 74MB C:/Users/Dylan Bruton/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.08.28-09.29.37:879][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Dylan Bruton/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2018.08.28-09.29.37:879][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../GameDev/_Projects/TowerOfPain/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.08.28-09.29.37:879][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.08.28-09.29.37:879][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../GameDev/_Projects/TowerOfPain/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.08.28-09.29.37:879][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.08.28-09.29.37:895][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.08.28-09.29.37:908][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dylan Bruton/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.08.28-09.29.37:908][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.08.28-09.29.37:908][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.08.28-09.29.37:918][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.08.28-09.29.37:919][  0]LogSlate: Using Freetype 2.6.0
-[2018.08.28-09.29.37:919][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.08.28-09.29.37:920][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.08.28-09.29.38:105][  0]LogAssetRegistry: FAssetRegistry took 0.0257 seconds to start up
-[2018.08.28-09.29.38:434][  0]LogInit: Selected Device Profile: [Windows]
-[2018.08.28-09.29.38:599][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.08.28-09.29.38:601][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.08.28-09.29.38:601][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.08.28-09.29.38:601][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.08.28-09.29.38:601][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.08.28-09.29.38:601][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.08.28-09.29.38:644][  0]LogNetVersion: FloorsofPain , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1369734142)
-[2018.08.28-09.29.39:309][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.167576 seconds
-[2018.08.28-09.29.39:320][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2018.08.28-09.29.39:320][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
-[2018.08.28-09.29.39:320][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.08.28-09.29.42:431][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.08.28-09.29.42:464][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.08.28-09.29.42:981][  0]SourceControl: Source control is disabled
-[2018.08.28-09.29.42:981][  0]SourceControl: Source control is disabled
-[2018.08.28-09.29.43:001][  0]SourceControl: Source control is disabled
-[2018.08.28-09.29.43:024][  0]SourceControl: Source control is disabled
-[2018.08.28-09.29.43:682][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.08.28-09.29.44:182][  0]LogOcInput: OculusInput pre-init called
-[2018.08.28-09.29.44:531][  0]LogEngine: Initializing Engine...
-[2018.08.28-09.29.44:534][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.08.28-09.29.44:537][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.08.28-09.29.44:537][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.08.28-09.29.44:925][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.08.28-09.29.45:018][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2018.08.28-09.29.45:859][  0]LogInit: FAudioDevice initialized.
-[2018.08.28-09.29.45:972][  0]LogDerivedDataCache: Saved boot cache 0.11s 74MB C:/Users/Dylan Bruton/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.08.28-09.29.45:987][  0]LogInit: Texture streaming: Enabled
-[2018.08.28-09.29.45:999][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.08.28-09.29.46:041][  0]LogInit: Transaction tracking system initialized
-[2018.08.28-09.29.46:063][  0]BlueprintLog: New page: Editor Load
-[2018.08.28-09.29.46:161][  0]LocalizationService: Localization service is disabled
-[2018.08.28-09.29.46:321][  0]LogConsoleResponse: Display: 
-[2018.08.28-09.29.46:731][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.08.28-09.29.46:732][  0]LogCook: Display: Mobile HDR setting 1
-[2018.08.28-09.29.46:732][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.08.28-09.29.46:732][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.08.28-09.29.46:732][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.08.28-09.29.47:153][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/TowerOfPain/Content/' took 0.04s
-[2018.08.28-09.29.47:185][  0]SourceControl: Source control is disabled
-[2018.08.28-09.29.47:186][  0]Cmd: MAP LOAD FILE="../../../../GameDev/_Projects/TowerOfPain/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.08.28-09.29.47:186][  0]LightingResults: New page: Lighting Build
-[2018.08.28-09.29.47:189][  0]MapCheck: New page: Map Check
-[2018.08.28-09.29.47:190][  0]LightingResults: New page: Lighting Build
-[2018.08.28-09.29.48:952][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002189573f970, Size=72, Default__FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.08.28-09.29.49:691][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002189573f970, Size=72
-[2018.08.28-09.29.49:692][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000218956c3830, Size=72, Default__FirstPerson_AnimBP_C Function /Engine/Transient.REINST_FirstPerson_AnimBP_C_0:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.08.28-09.29.49:824][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021895698f40, Size=72, Default__FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.08.28-09.29.49:950][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000218956b1a80, Size=192, Default__Bullet_C Function /Game/FirstPersonBP/Blueprints/Bullet.Bullet_C:ExecuteUbergraph_Bullet
-[2018.08.28-09.29.49:960][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000218956b1a80, Size=192
-[2018.08.28-09.29.49:960][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000218956b1a80, Size=192, Default__Bullet_C Function /Engine/Transient.REINST_Bullet_C_4:ExecuteUbergraph_Bullet
-[2018.08.28-09.29.49:983][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000218956b2b00, Size=192, Default__Bullet_C Function /Game/FirstPersonBP/Blueprints/Bullet.Bullet_C:ExecuteUbergraph_Bullet
-[2018.08.28-09.29.50:805][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000218956a8800, Size=880, Default__FirstPersonCharacter_C Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
-[2018.08.28-09.29.50:893][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000218956a8800, Size=880
-[2018.08.28-09.29.50:893][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000218956a8800, Size=880, Default__FirstPersonCharacter_C Function /Engine/Transient.REINST_FirstPersonCharacter_C_6:ExecuteUbergraph_FirstPersonCharacter
-[2018.08.28-09.29.50:954][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002189886b900, Size=880, Default__FirstPersonCharacter_C Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
-[2018.08.28-09.29.51:240][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002189b3dbee8, Size=52, Default__FirstPersonHUD_C Function /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD_C:ExecuteUbergraph_FirstPersonHUD
-[2018.08.28-09.29.51:243][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002189b3dbee8, Size=52
-[2018.08.28-09.29.51:244][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002189b3dbee8, Size=52, Default__FirstPersonHUD_C Function /Engine/Transient.REINST_FirstPersonHUD_C_10:ExecuteUbergraph_FirstPersonHUD
-[2018.08.28-09.29.51:247][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002189b3db8c8, Size=52, Default__FirstPersonHUD_C Function /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD_C:ExecuteUbergraph_FirstPersonHUD
-[2018.08.28-09.29.51:996][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [51.362633ms] /Game/FirstPerson/FPWeapon/Mesh/SK_FPGun.SK_FPGun
-[2018.08.28-09.29.52:070][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [21.553591ms] /Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms.SK_Mannequin_Arms
-[2018.08.28-09.29.52:333][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.08.28-09.29.52:670][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.08.28-09.29.52:727][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000218956c3830, Size=72
-[2018.08.28-09.29.52:727][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000218956b1a80, Size=192
-[2018.08.28-09.29.52:727][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000218956a8800, Size=880
-[2018.08.28-09.29.52:728][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002189b3dbee8, Size=52
-[2018.08.28-09.29.52:735][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.08.28-09.29.52:905][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 169.506ms to complete.
-[2018.08.28-09.29.52:905][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 5.719
-[2018.08.28-09.29.53:811][  0]LogCollectionManager: Loaded 0 collections in 0.002806 seconds
-[2018.08.28-09.29.53:965][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/TowerOfPain/Saved/Collections/' took 0.01s
-[2018.08.28-09.29.53:965][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/TowerOfPain/Content/Developers/DylanBruton/Collections/' took 0.01s
-[2018.08.28-09.29.53:965][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/TowerOfPain/Content/Collections/' took 0.01s
-[2018.08.28-09.29.53:965][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.08.28-09.29.53:989][  0]LogContentBrowser: Native class hierarchy populated in 0.0217 seconds. Added 2452 classes and 558 folders.
-[2018.08.28-09.29.54:143][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2018.08.28-09.29.56:359][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2018.08.28-09.29.56:436][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
-[2018.08.28-09.29.57:809][  0]LogSlate: Took 0.001428 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.08.28-09.29.57:819][  0]LogSlate: Took 0.000922 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.08.28-09.29.57:917][  0]LogSlate: Took 0.016632 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.08.28-09.29.58:675][  0]LogRenderer: Reallocating scene render targets to support 1072x364 Format 10 NumSamples 1 (Frame:1).
-[2018.08.28-09.29.59:447][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 0 classes and 0 folders.
-[2018.08.28-09.29.59:447][  0]LogLoad: (Engine Initialization) Total time: 29.54 seconds
-[2018.08.28-09.29.59:447][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.08.28-09.29.59:459][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.08.28-09.29.59:525][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.08.28-09.29.59:975][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.08.28-09.30.00:092][  3]LogAssetRegistry: Asset discovery search completed in 22.0091 seconds
-[2018.08.28-09.30.00:104][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000010 seconds (updated 0 objects)
-[2018.08.28-09.30.07:658][214]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.08.28-09.30.07:673][214]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2018.08.28-09.30.07:712][214]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.08.28-09.30.07:745][214]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.08.28-09.30.07:854][214]PIE: New page: PIE session: FirstPersonExampleMap (Aug 28, 2018, 1:30:07 AM)
-[2018.08.28-09.30.07:865][214]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2018.08.28-09.30.08:007][214]LogPlayLevel: PIE: StaticDuplicateObject took: (0.142414s)
-[2018.08.28-09.30.08:019][214]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.08.28-09.30.08:020][214]LogPlayLevel: PIE: World Init took: (0.002565s)
-[2018.08.28-09.30.08:020][214]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.155733s)
-[2018.08.28-09.30.08:081][214]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2018.08.28-09.30.08:189][214]LogInit: FAudioDevice initialized.
-[2018.08.28-09.30.08:339][214]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2018.08.28-09.30.08:438][214]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.08.28-05.30.08
-[2018.08.28-09.30.08:489][214]LogWorld: Bringing up level for play took: 0.068937
-[2018.08.28-09.30.08:625][214]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 11 classes and 0 folders.
-[2018.08.28-09.30.08:656][214]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.643
-[2018.08.28-09.30.08:667][214]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.08.28-09.30.08:959][214]LogRenderer: Reallocating scene render targets to support 1072x480 Format 10 NumSamples 1 (Frame:1).
-[2018.08.28-09.30.26:724][482]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.08.28-09.30.26:760][482]LogSlate: Window 'FloorsofPain Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2018.08.28-09.30.26:834][482]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.08.29-21.51.16:522][  0]LogInit: Selected Device Profile: [Windows]
+[2018.08.29-21.51.16:522][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.08.29-21.51.16:554][  0]LogInit: Computer: DESKTOP-EKVR1F9
+[2018.08.29-21.51.16:554][  0]LogInit: User: DylanBruton
+[2018.08.29-21.51.16:554][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.08.29-21.51.16:554][  0]LogInit: High frequency timer resolution =2.742187 MHz
+[2018.08.29-21.51.16:554][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.08.29-21.51.16:554][  0]LogMemory: Platform Memory Stats for Windows
+[2018.08.29-21.51.16:554][  0]LogMemory: Process Physical Memory: 274.66 MB used, 274.66 MB peak
+[2018.08.29-21.51.16:554][  0]LogMemory: Process Virtual Memory: 264.81 MB used, 264.81 MB peak
+[2018.08.29-21.51.16:554][  0]LogMemory: Physical Memory: 10532.59 MB used,  5724.44 MB free, 16257.03 MB total
+[2018.08.29-21.51.16:554][  0]LogMemory: Virtual Memory: 4795.36 MB used,  5724.44 MB free, 134217728.00 MB total
+[2018.08.29-21.51.16:930][  0]LogInit: Using OS detected language (en-US).
+[2018.08.29-21.51.16:931][  0]LogInit: Using OS detected locale (en-US).
+[2018.08.29-21.51.16:936][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.08.29-21.51.17:377][  0]LogStreaming: Display: Took  0.448s to EndInitTextLocalization.
+[2018.08.29-21.51.17:377][  0]LogInit: Setting process to per monitor DPI aware
+[2018.08.29-21.51.17:408][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.08.29-21.51.17:408][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.08.29-21.51.17:718][  0]LogD3D11RHI: D3D11 adapters:
+[2018.08.29-21.51.17:780][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.08.29-21.51.17:780][  0]LogD3D11RHI:       8089/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.08.29-21.51.17:803][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.08.29-21.51.17:803][  0]LogD3D11RHI:       128/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.08.29-21.51.17:805][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.08.29-21.51.17:805][  0]LogD3D11RHI:       0/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.08.29-21.51.17:805][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.08.29-21.51.17:814][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.08.29-21.51.17:814][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2018.08.29-21.51.17:814][  0]LogWindows: EnumDisplayDevices:
+[2018.08.29-21.51.17:814][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.08.29-21.51.17:814][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.08.29-21.51.17:814][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.08.29-21.51.17:814][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.08.29-21.51.17:814][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.08.29-21.51.17:814][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.08.29-21.51.17:815][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.08.29-21.51.17:815][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.08.29-21.51.17:815][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.08.29-21.51.17:815][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.08.29-21.51.17:815][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.08.29-21.51.17:815][  0]LogRHI: Texture pool is 5662 MB (70% of 8089 MB)
+[2018.08.29-21.51.17:844][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.08.29-21.51.17:844][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.08.29-21.51.17:844][  0]LogD3D11RHI: Async texture creation enabled
+[2018.08.29-21.51.17:905][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.08.29-21.51.17:951][  0]LogShaderCompilers: Guid format shader working directory is 11 characters bigger than the processId version (../../../../GameDev/_Projects/TowerOfPain/Intermediate/Shaders/WorkingDirectory/24060/).
+[2018.08.29-21.51.17:951][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dylan Bruton/AppData/Local/Temp/UnrealShaderWorkingDir/82BE5E224B2C9A0710BB6399D3307CFD/'.
+[2018.08.29-21.51.18:185][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.08.29-21.51.18:199][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.08.29-21.51.18:212][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.08.29-21.51.18:226][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.08.29-21.51.18:240][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.08.29-21.51.18:253][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.08.29-21.51.18:267][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.08.29-21.51.18:282][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.08.29-21.51.18:287][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.08.29-21.51.18:301][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.08.29-21.51.18:314][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.08.29-21.51.18:328][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.08.29-21.51.18:341][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.08.29-21.51.18:354][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.08.29-21.51.18:368][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.08.29-21.51.18:395][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.08.29-21.51.18:395][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.08.29-21.51.18:407][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.29-21.51.18:409][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.08.29-21.51.18:448][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.08.29-21.51.18:459][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.08.29-21.51.18:471][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.08.29-21.51.18:484][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.08.29-21.51.18:496][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.08.29-21.51.18:508][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.08.29-21.51.18:508][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.08.29-21.51.18:620][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.08.29-21.51.18:621][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.08.29-21.51.18:621][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.08.29-21.51.19:365][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.08.29-21.51.19:434][  0]LogDerivedDataCache: Loaded boot cache 0.07s 74MB C:/Users/Dylan Bruton/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.08.29-21.51.19:435][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Dylan Bruton/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.08.29-21.51.19:435][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../GameDev/_Projects/TowerOfPain/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.08.29-21.51.19:435][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.08.29-21.51.19:435][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../GameDev/_Projects/TowerOfPain/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.08.29-21.51.19:435][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.08.29-21.51.19:452][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.08.29-21.51.19:464][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dylan Bruton/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.08.29-21.51.19:464][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.08.29-21.51.19:464][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.08.29-21.51.19:477][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.08.29-21.51.19:477][  0]LogSlate: Using Freetype 2.6.0
+[2018.08.29-21.51.19:478][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.08.29-21.51.19:478][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.08.29-21.51.19:623][  0]LogAssetRegistry: FAssetRegistry took 0.0279 seconds to start up
+[2018.08.29-21.51.20:070][  0]LogInit: Selected Device Profile: [Windows]
+[2018.08.29-21.51.20:169][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.08.29-21.51.20:172][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.08.29-21.51.20:172][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.08.29-21.51.20:172][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.08.29-21.51.20:172][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.08.29-21.51.20:172][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.08.29-21.51.20:311][  0]LogNetVersion: FloorsofPain , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1369734142)
+[2018.08.29-21.51.20:810][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.105796 seconds
+[2018.08.29-21.51.20:817][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.08.29-21.51.20:817][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2018.08.29-21.51.20:817][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.08.29-21.51.22:784][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.08.29-21.51.22:819][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.08.29-21.51.23:231][  0]SourceControl: Source control is disabled
+[2018.08.29-21.51.23:231][  0]SourceControl: Source control is disabled
+[2018.08.29-21.51.23:252][  0]SourceControl: Source control is disabled
+[2018.08.29-21.51.23:277][  0]SourceControl: Source control is disabled
+[2018.08.29-21.51.23:830][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.08.29-21.51.24:088][  0]LogOcInput: OculusInput pre-init called
+[2018.08.29-21.51.24:214][  0]LogEngine: Initializing Engine...
+[2018.08.29-21.51.24:216][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.08.29-21.51.24:217][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.08.29-21.51.24:217][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.08.29-21.51.24:450][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.08.29-21.51.24:545][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.08.29-21.51.25:024][  0]LogInit: FAudioDevice initialized.
+[2018.08.29-21.51.25:114][  0]LogDerivedDataCache: Saved boot cache 0.09s 74MB C:/Users/Dylan Bruton/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.08.29-21.51.25:127][  0]LogInit: Texture streaming: Enabled
+[2018.08.29-21.51.25:141][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.08.29-21.51.25:174][  0]LogInit: Transaction tracking system initialized
+[2018.08.29-21.51.25:192][  0]BlueprintLog: New page: Editor Load
+[2018.08.29-21.51.25:251][  0]LocalizationService: Localization service is disabled
+[2018.08.29-21.51.25:362][  0]LogConsoleResponse: Display: 
+[2018.08.29-21.51.25:557][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.08.29-21.51.25:557][  0]LogCook: Display: Mobile HDR setting 1
+[2018.08.29-21.51.25:557][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.08.29-21.51.25:557][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.08.29-21.51.25:557][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.08.29-21.51.25:985][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/TowerOfPain/Content/' took 0.03s
+[2018.08.29-21.51.25:985][  0]SourceControl: Source control is disabled
+[2018.08.29-21.51.25:985][  0]Cmd: MAP LOAD FILE="../../../../GameDev/_Projects/TowerOfPain/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.08.29-21.51.25:985][  0]LogEditorServer: Warning: Can't find file '../../../../GameDev/_Projects/TowerOfPain/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2018.08.29-21.51.25:985][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.08.29-21.51.26:040][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 54.233ms to complete.
+[2018.08.29-21.51.26:040][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.055
+[2018.08.29-21.51.27:297][  0]LogCollectionManager: Loaded 0 collections in 0.001487 seconds
+[2018.08.29-21.51.27:406][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/TowerOfPain/Saved/Collections/' took 0.01s
+[2018.08.29-21.51.27:406][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/TowerOfPain/Content/Developers/DylanBruton/Collections/' took 0.01s
+[2018.08.29-21.51.27:406][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/TowerOfPain/Content/Collections/' took 0.01s
+[2018.08.29-21.51.27:406][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.08.29-21.51.27:416][  0]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2452 classes and 558 folders.
+[2018.08.29-21.51.27:486][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.08.29-21.51.29:033][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.08.29-21.51.29:051][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.08.29-21.51.29:324][  0]LogSlate: Took 0.000268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.08.29-21.51.29:327][  0]LogSlate: Took 0.000334 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.08.29-21.51.29:349][  0]LogSlate: Took 0.015964 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.08.29-21.51.29:550][  0]LogRenderer: Reallocating scene render targets to support 1072x364 Format 10 NumSamples 1 (Frame:1).
+[2018.08.29-21.51.29:716][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.08.29-21.51.29:716][  0]LogLoad: (Engine Initialization) Total time: 16.13 seconds
+[2018.08.29-21.51.29:716][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.08.29-21.51.29:734][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.08.29-21.51.29:752][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.08.29-21.51.29:824][  1]LogAssetRegistry: Asset discovery search completed in 10.2232 seconds
+[2018.08.29-21.51.29:826][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.08.29-21.51.29:826][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000053 seconds (updated 0 objects)
+[2018.08.29-21.51.45:557][941]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.29-21.51.55:253][505]LogSlate: Took 0.019840 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.08.29-21.51.55:413][505]LogUObjectGlobals: Created PersistentFrame Addr=0x000001d5b644e980, Size=72, Default__FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
+[2018.08.29-21.51.55:452][505]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001d5b644e980, Size=72
+[2018.08.29-21.51.55:452][505]LogUObjectGlobals: Created PersistentFrame Addr=0x000001d5b58745e0, Size=72, Default__FirstPerson_AnimBP_C Function /Engine/Transient.REINST_FirstPerson_AnimBP_C_0:ExecuteUbergraph_FirstPerson_AnimBP
+[2018.08.29-21.51.55:489][505]LogUObjectGlobals: Created PersistentFrame Addr=0x000001d5b01989a0, Size=72, Default__FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
+[2018.08.29-21.51.55:530][505]LogUObjectGlobals: Created PersistentFrame Addr=0x000001d5b01574c0, Size=192, Default__Bullet_C Function /Game/FirstPersonBP/Blueprints/Bullet.Bullet_C:ExecuteUbergraph_Bullet
+[2018.08.29-21.51.55:534][505]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001d5b01574c0, Size=192
+[2018.08.29-21.51.55:534][505]LogUObjectGlobals: Created PersistentFrame Addr=0x000001d5b01574c0, Size=192, Default__Bullet_C Function /Engine/Transient.REINST_Bullet_C_4:ExecuteUbergraph_Bullet
+[2018.08.29-21.51.55:536][505]LogUObjectGlobals: Created PersistentFrame Addr=0x000001d5b0156500, Size=192, Default__Bullet_C Function /Game/FirstPersonBP/Blueprints/Bullet.Bullet_C:ExecuteUbergraph_Bullet
+[2018.08.29-21.51.56:050][505]LogUObjectGlobals: Created PersistentFrame Addr=0x000001d5afd92e80, Size=880, Default__FirstPersonCharacter_C Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+[2018.08.29-21.51.56:074][505]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001d5afd92e80, Size=880
+[2018.08.29-21.51.56:074][505]LogUObjectGlobals: Created PersistentFrame Addr=0x000001d5afd92e80, Size=880, Default__FirstPersonCharacter_C Function /Engine/Transient.REINST_FirstPersonCharacter_C_6:ExecuteUbergraph_FirstPersonCharacter
+[2018.08.29-21.51.56:084][505]LogUObjectGlobals: Created PersistentFrame Addr=0x000001d5afd92080, Size=880, Default__FirstPersonCharacter_C Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+[2018.08.29-21.51.56:093][505]LogUObjectGlobals: Created PersistentFrame Addr=0x000001d5af956b98, Size=4, Default__Parasyte_Anim_BP_C Function /Game/Models/Parasyte/Parasyte_Anim_Bp.Parasyte_Anim_BP_C:ExecuteUbergraph_Parasyte_Anim_BP
+[2018.08.29-21.51.56:096][505]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001d5af956b98, Size=4
+[2018.08.29-21.51.56:096][505]LogUObjectGlobals: Created PersistentFrame Addr=0x000001d5af956b98, Size=4, Default__Parasyte_Anim_BP_C Function /Engine/Transient.REINST_Parasyte_Anim_BP_C_1:ExecuteUbergraph_Parasyte_Anim_BP
+[2018.08.29-21.51.56:097][505]LogUObjectGlobals: Created PersistentFrame Addr=0x000001d5af957208, Size=4, Default__Parasyte_Anim_BP_C Function /Game/Models/Parasyte/Parasyte_Anim_Bp.Parasyte_Anim_BP_C:ExecuteUbergraph_Parasyte_Anim_BP
+[2018.08.29-21.51.56:239][505]LogUObjectGlobals: Created PersistentFrame Addr=0x000001d58e056b00, Size=52, Default__FirstPersonHUD_C Function /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD_C:ExecuteUbergraph_FirstPersonHUD
+[2018.08.29-21.51.56:241][505]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001d58e056b00, Size=52
+[2018.08.29-21.51.56:241][505]LogUObjectGlobals: Created PersistentFrame Addr=0x000001d58e056b00, Size=52, Default__FirstPersonHUD_C Function /Engine/Transient.REINST_FirstPersonHUD_C_14:ExecuteUbergraph_FirstPersonHUD
+[2018.08.29-21.51.56:243][505]LogUObjectGlobals: Created PersistentFrame Addr=0x000001d58e057008, Size=52, Default__FirstPersonHUD_C Function /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD_C:ExecuteUbergraph_FirstPersonHUD
+[2018.08.29-21.51.58:547][505]LogSkeletalMesh: Skeletal Mesh found in DDC [11.740264ms] /Game/Models/Parasyte/parasite_l_starkie.parasite_l_starkie
+[2018.08.29-21.51.58:907][505]LogSkeletalMesh: Skeletal Mesh found in DDC [13.594259ms] /Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms.SK_Mannequin_Arms
+[2018.08.29-21.51.59:006][505]LogSkeletalMesh: Skeletal Mesh found in DDC [16.363216ms] /Game/FirstPerson/FPWeapon/Mesh/SK_FPGun.SK_FPGun
+[2018.08.29-21.51.59:126][505]LogAIModule: Creating AISystem for world Floor1
+[2018.08.29-21.51.59:179][505]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001d5b58745e0, Size=72
+[2018.08.29-21.51.59:180][505]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001d5b01574c0, Size=192
+[2018.08.29-21.51.59:180][505]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001d5afd92e80, Size=880
+[2018.08.29-21.51.59:180][505]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001d5af956b98, Size=4
+[2018.08.29-21.51.59:180][505]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001d58e056b00, Size=52
+[2018.08.29-21.51.59:182][505]Cmd: MAP LOAD FILE="../../../../GameDev/_Projects/TowerOfPain/Content/Maps/Floor1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.08.29-21.51.59:182][505]LightingResults: New page: Lighting Build
+[2018.08.29-21.51.59:184][505]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0002 seconds. Added 5 classes and 0 folders.
+[2018.08.29-21.51.59:185][505]LoadErrors: New page: Loading map: Floor1.umap
+[2018.08.29-21.51.59:185][505]MapCheck: New page: Map Check
+[2018.08.29-21.51.59:185][505]LightingResults: New page: Lighting Build
+[2018.08.29-21.51.59:305][505]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.08.29-21.51.59:348][505]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.08.29-21.51.59:429][505]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 82.259ms to complete.
+[2018.08.29-21.51.59:431][505]LogFileHelpers: Loading map 'Floor1' took 0.250
+[2018.08.29-21.52.23:692][948]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.29-21.52.23:775][953]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.08.29-21.52.23:791][953]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Floor1.Floor1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Floor1.Floor1:PersistentLevel.Floor1' with GeneratedClass '/Game/Maps/Floor1.Floor1_C' with ClassGeneratedBy '/Game/Maps/Floor1.Floor1:PersistentLevel.Floor1'
+[2018.08.29-21.52.23:791][953]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.29-21.52.23:860][953]PIE: New page: PIE session: Floor1 (Aug 29, 2018, 1:52:23 PM)
+[2018.08.29-21.52.23:860][953]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Floor1
+[2018.08.29-21.52.23:902][953]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043189s)
+[2018.08.29-21.52.23:903][953]LogAIModule: Creating AISystem for world Floor1
+[2018.08.29-21.52.23:903][953]LogPlayLevel: PIE: World Init took: (0.001016s)
+[2018.08.29-21.52.23:904][953]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Floor1.Floor1 to /Game/Maps/UEDPIE_0_Floor1.Floor1 (0.044491s)
+[2018.08.29-21.52.23:951][953]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.08.29-21.52.24:032][953]LogInit: FAudioDevice initialized.
+[2018.08.29-21.52.24:148][953]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.08.29-21.52.24:156][953]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Floor1.Floor1 up for play (max tick rate 60) at 2018.08.29-17.52.24
+[2018.08.29-21.52.24:157][953]LogWorld: Bringing up level for play took: 0.007441
+[2018.08.29-21.52.24:204][953]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2018.08.29-21.52.24:225][953]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Floor1 -0.508
+[2018.08.29-21.52.24:226][953]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Floor1.Floor1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Floor1.Floor1:PersistentLevel.Floor1' with GeneratedClass '/Game/Maps/Floor1.Floor1_C' with ClassGeneratedBy '/Game/Maps/Floor1.Floor1:PersistentLevel.Floor1'
+[2018.08.29-21.52.24:273][953]LogRenderer: Reallocating scene render targets to support 1072x480 Format 10 NumSamples 1 (Frame:1).
+[2018.08.29-21.53.34:952][183]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Floor1.Floor1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Floor1.Floor1:PersistentLevel.Floor1' with GeneratedClass '/Game/Maps/Floor1.Floor1_C' with ClassGeneratedBy '/Game/Maps/Floor1.Floor1:PersistentLevel.Floor1'
+[2018.08.29-21.53.34:970][183]LogSlate: Window 'FloorsofPain Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.08.29-21.53.35:044][183]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Floor1.Floor1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Floor1.Floor1:PersistentLevel.Floor1' with GeneratedClass '/Game/Maps/Floor1.Floor1_C' with ClassGeneratedBy '/Game/Maps/Floor1.Floor1:PersistentLevel.Floor1'
